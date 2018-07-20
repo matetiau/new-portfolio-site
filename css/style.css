@@ -10,29 +10,51 @@ body{
 /*about me*/
 .about-me{
     margin-top: 10%;
-   color: #F7C502;
+    color: aliceblue;
     display: flex;
     flex-direction:column;
     padding: 5%;
     width: 100%;
-    text-align: center
+    text-align: center;
+    
+        
+}
+
+#welcome-section{
+    position: relative;
+    animation: mymove 3s;
+    
+}
+@keyframes mymove {
+    from {left: -100%;}
+    to {left: 0px;}
+    transition-timing-function: ease;
 }
 p{
     font-family:sans-serif;
     font-size: 20px;
     font-style:italic;
-    margin-left: 10%
+    margin-left: 5%;
+    position: relative;
+    
+    
    
 }
 .mee{
-     margin-left: 30%;
+    color: #F7C502;
+    margin-left: 30%;
+    display: flex;
+    font-family: 'Playfair Display', serif;
+}
+.letter{
+    width: 10%;
 }
 h2{
     margin-right: 30%;
 }
 
 .top{
-     background: url(damian-zaleski-843-unsplash.jpg);
+    background: url(69638974-portfolio-wallpapers.jpg);
    
     background-size: cover;
     background-repeat: no-repeat;
@@ -59,6 +81,14 @@ h2{
     .contact{
         margin-top: 350px;
     }
+    .top{
+        background-size: cover;
+        height: 50vh;
+        
+    }
+    .skills{
+        height:50vh;
+    }
     
 }
 
@@ -82,11 +112,19 @@ nav ul{
 }
 nav li { 
     display: inline-block; 
-    width: 33.3%;
+    
     text-align: center;
     
     
 }
+#linkaa  {
+    width:34.1%;
+}
+#conta{
+    width:34.1%;}
+#koko{
+     width:31.8%;   
+    }
 a.link {
     display: block;
     text-decoration: none;
@@ -164,6 +202,7 @@ li a {
     -webkit-box-shadow: 0px 0px 21px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: 0px 0px 21px 0px rgba(0,0,0,0.75);
 box-shadow: 0px 0px 21px 0px rgba(0,0,0,0.75);
+   position: relative;
     
     
 }
@@ -177,6 +216,12 @@ box-shadow: 0px 0px 21px 0px rgba(0,0,0,0.75);
 .project-title a{
     text-decoration: none;
 }
+#link-left{
+    position: relative;
+    visibility: hidden;
+    
+}
+
 /*contact*/
 
 .contact{
@@ -196,6 +241,7 @@ box-shadow: 0px 0px 21px 0px rgba(0,0,0,0.75);
     text-align: center;
     width: 100%;
      line-height: 250px;
+    
 }
 .copyright{
     text-align: center;
