@@ -8,7 +8,7 @@ window.onscroll = function() {
 
 window.sr = ScrollReveal();
 window.onscroll = function() {
-    if (document.documentElement.scrollTop > 1200 ){
+    if (document.documentElement.scrollTop > 1100 ){
         document.getElementById('link-left').style.animation =' mymove 1.2s';
         document.getElementById('link-left').style.visibility='visible';
         
@@ -16,6 +16,9 @@ window.onscroll = function() {
         document.getElementById('link-right').style.animation =' mymoveleft 1.2s';
         document.getElementById('link-right').style.visibility='visible';
         
+        
+        document.getElementById('link-center').style.animation =' mymovecenter 1.2s';
+        document.getElementById('link-center').style.visibility='visible';
         
         
     }

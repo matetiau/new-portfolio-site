@@ -36,6 +36,13 @@ body{
     to {right: 0px;}
     
 }
+@keyframes mymovecenter {
+    from {top: -300px;}
+    to {top: 0px;}
+    
+}
+
+
 p{
     font-family:sans-serif;
     font-size: 20px;
@@ -228,6 +235,10 @@ box-shadow: 0px 0px 21px 0px rgba(0,0,0,0.75);
     
 }
 #link-right{
+    position: relative;
+    visibility: hidden;
+}
+#link-center{
     position: relative;
     visibility: hidden;
 }
