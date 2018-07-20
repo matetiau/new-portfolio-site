@@ -25,10 +25,16 @@ body{
     animation: mymove 3s;
     
 }
+/*animation*/
 @keyframes mymove {
     from {left: -100%;}
     to {left: 0px;}
-    transition-timing-function: ease;
+    
+}
+@keyframes mymoveleft {
+    from {right: -100%;}
+    to {right: 0px;}
+    
 }
 p{
     font-family:sans-serif;
@@ -220,6 +226,10 @@ box-shadow: 0px 0px 21px 0px rgba(0,0,0,0.75);
     position: relative;
     visibility: hidden;
     
+}
+#link-right{
+    position: relative;
+    visibility: hidden;
 }
 
 /*contact*/

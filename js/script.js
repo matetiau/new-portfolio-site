@@ -8,9 +8,16 @@ window.onscroll = function() {
 
 window.sr = ScrollReveal();
 window.onscroll = function() {
-    if (document.documentElement.scrollTop > 1000 ){
+    if (document.documentElement.scrollTop > 1200 ){
         document.getElementById('link-left').style.animation =' mymove 1.2s';
         document.getElementById('link-left').style.visibility='visible';
+        
+        
+        document.getElementById('link-right').style.animation =' mymoveleft 1.2s';
+        document.getElementById('link-right').style.visibility='visible';
+        
+        
+        
     }
 }
 
