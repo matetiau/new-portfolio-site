@@ -156,8 +156,12 @@ li a {
     line-height: 8vh;
     
 }
-
-
+.skills-nav{
+    padding-left: 65px;
+}
+.conta-nav{
+    padding-right: 65px;
+}
 .roll-down{
   -webkit-transition:background-color 5s;
    transition: background-color 5s;
@@ -176,7 +180,7 @@ li a {
     display: flex;
     width: 100%;
     flex-wrap:wrap;
-    height: 100vh;
+    height: 70vh;
 }
 
 /*port*/
@@ -187,7 +191,7 @@ li a {
     text-align: center;
     font-size: 125px;
     width: 100%;
-    padding: 2%;
+    padding: 3%;
     
     
 }
@@ -205,7 +209,7 @@ li a {
     flex-wrap: wrap;
     height: 100%;
     color: #F7C502;
-    
+    padding-top: 0px;
 }
 .project-tile{
     width: 31.3%;
@@ -213,10 +217,10 @@ li a {
     margin: 1%;
     text-align: center;
     -webkit-box-shadow: 0px 0px 21px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 0px 21px 0px rgba(0,0,0,0.75);
-box-shadow: 0px 0px 21px 0px rgba(0,0,0,0.75);
-   position: relative;
-    
+    -moz-box-shadow: 0px 0px 21px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 21px 0px rgba(0,0,0,0.75);
+    position: relative;
+     
     
 }
 
