@@ -138,7 +138,8 @@ nav li {
 #conta{
     width:34.1%;}
 #koko{
-     width:31.8%;   
+     width:31.8%; 
+   
     }
 a.link {
     display: block;
@@ -148,8 +149,8 @@ a.link {
 }
 
 li a:hover{
-    background: #F7C502;
-    color: aliceblue;
+    background: #F7C502 !important;
+    color: aliceblue !important;
   
 }
 li a {
@@ -160,6 +161,7 @@ li a {
 }
 .skills-nav{
     padding-left: 65px;
+    
 }
 .conta-nav{
     padding-right: 65px;
@@ -262,7 +264,7 @@ li a {
     
     }
 .contact1{
-    width: 33.3%;
+    width: 50%;
     height: 50vh;
     text-align: center;
     font-size:150px;
