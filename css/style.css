@@ -184,7 +184,9 @@ li a {
     display: flex;
     width: 100%;
     flex-wrap:wrap;
-    height: 100%;
+    height: 100vh;
+   
+    
 }
 
 /*port*/
@@ -206,14 +208,14 @@ li a {
 /*port*/
 .portfolio-container{
     position: relative;
-    background-color: white;
+    
     padding: 5%;
     background-size: cover;
-    
+    background-color: rgba(0,0,0,0.3);
     background-repeat: no-repeat;
     display: flex;
     flex-wrap: wrap;
-    height: 100%;
+    
     color: #F7C502;
     
 }
